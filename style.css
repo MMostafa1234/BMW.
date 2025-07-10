@@ -167,7 +167,7 @@ img {
     }
     li{
         font-size: 17px;
-        margin: 0 5px;
+        margin: 0 2px;
     }
     body::after {
         clip-path: circle(50% at center bottom);
