@@ -112,6 +112,36 @@ img {
 
 
 }
+/* 446 */
+
+
+@media screen and (max-width:600px) and (min-width:447px){
+
+    img {
+        width: 285px;
+    }
+
+    .content {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .image,
+    .text {
+        width: 80%;
+
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    body::after {
+        clip-path: circle(50% at center bottom);
+    }
+}
+
+
 
 
 @media screen and (max-width:446px) {
@@ -147,31 +177,5 @@ img {
     }
     p{
         font-size: 14px;
-    }
-}
-
-@media screen and(max-width:600px) and (min-width:447px){
-
-    img {
-        width: 285px;
-    }
-
-    .content {
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-
-    .image,
-    .text {
-        width: 80%;
-
-    }
-
-    nav {
-        flex-direction: column;
-    }
-
-    body::after {
-        clip-path: circle(50% at center bottom);
     }
 }
