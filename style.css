@@ -152,7 +152,7 @@ img {
 
     .content {
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: space-evenly;
         align-items: center;
     }
 
@@ -167,7 +167,7 @@ img {
     }
     li{
         font-size: 17px;
-        margin: 0 1px;
+        margin: 0 3px;
     }
     body::after {
         clip-path: circle(50% at center bottom);
