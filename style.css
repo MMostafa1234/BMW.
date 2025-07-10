@@ -114,8 +114,43 @@ img {
 }
 
 
+@media screen and (max-width:446px) {
 
-@media screen and (max-width:600px) {
+      img {
+        width: 260px;
+    }
+
+    .content {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .image,
+    .text {
+        width: 80%;
+
+    }
+
+    nav {
+        flex-direction: column;
+    }
+    li{
+        font-size: 17px;
+        margin: 0 4px;
+    }
+    body::after {
+        clip-path: circle(50% at center bottom);
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+
+@media screen and(max-width:600px) and (min-width:447px){
 
     img {
         width: 285px;
